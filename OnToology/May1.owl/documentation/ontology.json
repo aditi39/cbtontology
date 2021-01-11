@@ -1,0 +1,4813 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.cbtontology.com#Entry"
+    }, {
+      "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#val"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasFirstSEV"
+  } ]
+}, {
+  "@id" : "_:genid102",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#plan"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#con"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#apOptionHasCon"
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#plan"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pro"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#apOptionHasPro"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#plan"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSelectedActionPlan"
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasEntry"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid110",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#con"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryShowCon"
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pro"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryShowPro"
+  } ]
+}, {
+  "@id" : "_:genid117",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid129"
+    }, {
+      "@id" : "_:genid127"
+    }, {
+      "@id" : "_:genid125"
+    }, {
+      "@id" : "_:genid123"
+    }, {
+      "@id" : "_:genid119"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid131"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid119",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#sev"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#equal"
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#sev"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasFirstSEV"
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasEntry"
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#apMessage2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasMessage"
+  } ]
+}, {
+  "@id" : "_:genid132",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid144"
+    }, {
+      "@id" : "_:genid142"
+    }, {
+      "@id" : "_:genid140"
+    }, {
+      "@id" : "_:genid138"
+    }, {
+      "@id" : "_:genid134"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid146"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#sev"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#equal"
+  } ]
+}, {
+  "@id" : "_:genid138",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#sev"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSecondSEV"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid18"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid140",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasEntry"
+  } ]
+}, {
+  "@id" : "_:genid142",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid144",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid146",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#apMessage2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasMessage"
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid159"
+    }, {
+      "@id" : "_:genid157"
+    }, {
+      "@id" : "_:genid155"
+    }, {
+      "@id" : "_:genid153"
+    }, {
+      "@id" : "_:genid149"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid161"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid149",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#sev"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid153",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#sev"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSecondSEV"
+  } ]
+}, {
+  "@id" : "_:genid155",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasEntry"
+  } ]
+}, {
+  "@id" : "_:genid157",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid159",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid161",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#apMessage1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasMessage"
+  } ]
+}, {
+  "@id" : "_:genid162",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid184"
+    }, {
+      "@id" : "_:genid182"
+    }, {
+      "@id" : "_:genid180"
+    }, {
+      "@id" : "_:genid178"
+    }, {
+      "@id" : "_:genid176"
+    }, {
+      "@id" : "_:genid174"
+    }, {
+      "@id" : "_:genid172"
+    }, {
+      "@id" : "_:genid170"
+    }, {
+      "@id" : "_:genid168"
+    }, {
+      "@id" : "_:genid166"
+    }, {
+      "@id" : "_:genid164"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid186"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid164",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#plan2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#tg"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#apOptionHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid166",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#plan2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ]
+}, {
+  "@id" : "_:genid168",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#ans"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monAnsHasSameActionPlan"
+  } ]
+}, {
+  "@id" : "_:genid170",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#ans"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monAnsHasFollowedAP"
+  } ]
+}, {
+  "@id" : "_:genid172",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#mon"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#ans"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monitoringHasAnswer"
+  } ]
+}, {
+  "@id" : "_:genid174",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#mon"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasMonitoring"
+  } ]
+}, {
+  "@id" : "_:genid176",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#plan1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSelectedActionPlan"
+  } ]
+}, {
+  "@id" : "_:genid178",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasEntry"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "_:genid180",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#tg"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid182",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid184",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid186",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#plan2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasNewAPOption"
+  } ]
+}, {
+  "@id" : "_:genid187",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid193"
+    }, {
+      "@id" : "_:genid191"
+    }, {
+      "@id" : "_:genid189"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid197"
+    }, {
+      "@id" : "_:genid195"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid189",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#occupationGoal1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid23"
+    }, {
+      "@id" : "_:genid21"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid191",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid193",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid195",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#occActionPlan1_2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid197",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#occActionPlan1_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid198",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid212"
+    }, {
+      "@id" : "_:genid210"
+    }, {
+      "@id" : "_:genid208"
+    }, {
+      "@id" : "_:genid206"
+    }, {
+      "@id" : "_:genid204"
+    }, {
+      "@id" : "_:genid200"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid216"
+    }, {
+      "@id" : "_:genid214"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid200",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#tv"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "0.25"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid204",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#tv"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#profileTimeSpentWatchingTV"
+  } ]
+}, {
+  "@id" : "_:genid206",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasProfile"
+  } ]
+}, {
+  "@id" : "_:genid208",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "_:genid210",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid212",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid214",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan1_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid216",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan1_2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid217",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid223"
+    }, {
+      "@id" : "_:genid221"
+    }, {
+      "@id" : "_:genid219"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid227"
+    }, {
+      "@id" : "_:genid225"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid219",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid221",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid223",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid225",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan2_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid227",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan2_2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid228",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid234"
+    }, {
+      "@id" : "_:genid232"
+    }, {
+      "@id" : "_:genid230"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid240"
+    }, {
+      "@id" : "_:genid238"
+    }, {
+      "@id" : "_:genid236"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid230",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid232",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid234",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid236",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan1_3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid238",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan1_2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid28"
+    }, {
+      "@id" : "_:genid26"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid240",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan1_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid241",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid247"
+    }, {
+      "@id" : "_:genid245"
+    }, {
+      "@id" : "_:genid243"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid251"
+    }, {
+      "@id" : "_:genid249"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid243",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid245",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid247",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid249",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan2_2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid251",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan2_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid252",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid258"
+    }, {
+      "@id" : "_:genid256"
+    }, {
+      "@id" : "_:genid254"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid266"
+    }, {
+      "@id" : "_:genid264"
+    }, {
+      "@id" : "_:genid262"
+    }, {
+      "@id" : "_:genid260"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid254",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid256",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid258",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "_:genid260",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan3_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid262",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan3_4"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid264",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan3_3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid266",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan3_2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid267",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid281"
+    }, {
+      "@id" : "_:genid279"
+    }, {
+      "@id" : "_:genid277"
+    }, {
+      "@id" : "_:genid275"
+    }, {
+      "@id" : "_:genid273"
+    }, {
+      "@id" : "_:genid269"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid283"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid269",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#tv"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "0.25"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid273",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#tv"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#profileTimeSpentWatchingTV"
+  } ]
+}, {
+  "@id" : "_:genid275",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid277",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid279",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasProfile"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid281",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid283",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan1_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid284",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid294"
+    }, {
+      "@id" : "_:genid292"
+    }, {
+      "@id" : "_:genid290"
+    }, {
+      "@id" : "_:genid288"
+    }, {
+      "@id" : "_:genid286"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid296"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid286",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#profileHasMallCloseBy"
+  } ]
+}, {
+  "@id" : "_:genid288",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid33"
+    }, {
+      "@id" : "_:genid31"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid290",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid292",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasProfile"
+  } ]
+}, {
+  "@id" : "_:genid294",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid296",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan1_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid297",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid307"
+    }, {
+      "@id" : "_:genid305"
+    }, {
+      "@id" : "_:genid303"
+    }, {
+      "@id" : "_:genid301"
+    }, {
+      "@id" : "_:genid299"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid311"
+    }, {
+      "@id" : "_:genid309"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid299",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal"
+  } ]
+}, {
+  "@id" : "_:genid301",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid303",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#profileHasMallCloseBy"
+  } ]
+}, {
+  "@id" : "_:genid305",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#profile"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasProfile"
+  } ]
+}, {
+  "@id" : "_:genid307",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid309",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan1_1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "_:genid311",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan1_3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "_:genid312",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid324"
+    }, {
+      "@id" : "_:genid322"
+    }, {
+      "@id" : "_:genid320"
+    }, {
+      "@id" : "_:genid318"
+    }, {
+      "@id" : "_:genid316"
+    }, {
+      "@id" : "_:genid314"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid328"
+    }, {
+      "@id" : "_:genid326"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid314",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#b"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#sbHasThought"
+  } ]
+}, {
+  "@id" : "_:genid316",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#ap"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#sb"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSelectedBarrier"
+  } ]
+}, {
+  "@id" : "_:genid318",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#ap"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasEntry"
+  } ]
+}, {
+  "@id" : "_:genid320",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid322",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#ntp"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#thoughtHasNTP"
+  } ]
+}, {
+  "@id" : "_:genid324",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid326",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#gdQuestion2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#thoughtHasGD"
+  } ]
+}, {
+  "@id" : "_:genid328",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#gdQuestion1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#thoughtHasGD"
+  } ]
+}, {
+  "@id" : "_:genid329",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid341"
+    }, {
+      "@id" : "_:genid339"
+    }, {
+      "@id" : "_:genid335"
+    }, {
+      "@id" : "_:genid333"
+    }, {
+      "@id" : "_:genid331"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid343"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid331",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#rate"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasFeelingRating"
+  } ]
+}, {
+  "@id" : "_:genid333",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientActivity"
+  } ]
+}, {
+  "@id" : "_:genid335",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#rate"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "9"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid339",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasFollowedActivity"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid38"
+    }, {
+      "@id" : "_:genid36"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid341",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid343",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#baMessage2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasMessage"
+  } ]
+}, {
+  "@id" : "_:genid344",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid356"
+    }, {
+      "@id" : "_:genid354"
+    }, {
+      "@id" : "_:genid350"
+    }, {
+      "@id" : "_:genid348"
+    }, {
+      "@id" : "_:genid346"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid358"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid346",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#rate"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasFeelingRating"
+  } ]
+}, {
+  "@id" : "_:genid348",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientActivity"
+  } ]
+}, {
+  "@id" : "_:genid350",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#rate"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "9"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid354",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasFollowedActivity"
+  } ]
+}, {
+  "@id" : "_:genid356",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid358",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#baMessage1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasMessage"
+  } ]
+}, {
+  "@id" : "_:genid359",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid365"
+    }, {
+      "@id" : "_:genid363"
+    }, {
+      "@id" : "_:genid361"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid367"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "_:genid361",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientActivity"
+  } ]
+}, {
+  "@id" : "_:genid363",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasFollowedActivity"
+  } ]
+}, {
+  "@id" : "_:genid365",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid367",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#baMessage3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasMessage"
+  } ]
+}, {
+  "@id" : "_:genid368",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid388"
+    }, {
+      "@id" : "_:genid386"
+    }, {
+      "@id" : "_:genid384"
+    }, {
+      "@id" : "_:genid382"
+    }, {
+      "@id" : "_:genid380"
+    }, {
+      "@id" : "_:genid378"
+    }, {
+      "@id" : "_:genid376"
+    }, {
+      "@id" : "_:genid374"
+    }, {
+      "@id" : "_:genid372"
+    }, {
+      "@id" : "_:genid370"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid390"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid370",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#plan1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSelectedActionPlan"
+  } ]
+}, {
+  "@id" : "_:genid372",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#mon"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasMonitoring"
+  } ]
+}, {
+  "@id" : "_:genid374",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#ans"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monAnsHasFollowedAP"
+  } ]
+}, {
+  "@id" : "_:genid376",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#entry"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasEntry"
+  } ]
+}, {
+  "@id" : "_:genid378",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#ans"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monAnsHasSameActionPlan"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid380",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#plan2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ]
+}, {
+  "@id" : "_:genid382",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientRecord"
+  } ]
+}, {
+  "@id" : "_:genid384",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#mon"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#ans"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monitoringHasAnswer"
+  } ]
+}, {
+  "@id" : "_:genid386",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#SameIndividualAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#plan1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#plan2"
+  } ]
+}, {
+  "@id" : "_:genid388",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.cbtontology.com#OccupationActionPlanOption"
+    }, {
+      "@id" : "http://www.cbtontology.com#OtherActionPlanOption"
+    }, {
+      "@id" : "http://www.cbtontology.com#SocialActionPlanOption"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid390",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pr"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#plan2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasSameAPOption"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid8"
+    }, {
+      "@id" : "_:genid6"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.cbtontology.com#OccupationGoal"
+    }, {
+      "@id" : "http://www.cbtontology.com#OtherGoal"
+    }, {
+      "@id" : "http://www.cbtontology.com#SocialGoal"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.cbtontology.com#OccupationalDBE"
+    }, {
+      "@id" : "http://www.cbtontology.com#OtherDBE"
+    }, {
+      "@id" : "http://www.cbtontology.com#SocialDBE"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid57"
+    }, {
+      "@id" : "_:genid55"
+    }, {
+      "@id" : "_:genid53"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid59"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monAnsHasFollowedAP"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monitoringHasAnswer"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Monitoring"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#apMessage1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#hasMessage"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid66"
+    }, {
+      "@id" : "_:genid64"
+    }, {
+      "@id" : "_:genid62"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid68"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monAnsHasFollowedAP"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monitoringHasAnswer"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Monitoring"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.cbtontology.com#feelingAfterAP"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#monAnsShowAnswer"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid91"
+    }, {
+      "@id" : "_:genid89"
+    }, {
+      "@id" : "_:genid87"
+    }, {
+      "@id" : "_:genid85"
+    }, {
+      "@id" : "_:genid83"
+    }, {
+      "@id" : "_:genid81"
+    }, {
+      "@id" : "_:genid77"
+    }, {
+      "@id" : "_:genid75"
+    }, {
+      "@id" : "_:genid73"
+    }, {
+      "@id" : "_:genid71"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid93"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#act2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#dur"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#baActivityHasDuration"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#act1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#act2"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#act2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#BehaviouralActivationActivity"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#rate"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#rate"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasFeelingRating"
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasFollowedActivity"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#act1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#dur"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#baActivityHasDuration"
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#act1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasBAActivity"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#patientHasPatientActivity"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid13"
+    }, {
+      "@id" : "_:genid11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#pa"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#act2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.cbtontology.com#paHasAlternateActivity"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid112"
+    }, {
+      "@id" : "_:genid110"
+    }, {
+      "@id" : "_:genid108"
+    }, {
+      "@id" : "_:genid106"
+    }, {
+      "@id" : "_:genid104"
+    }, {
+      "@id" : "_:genid102"
+    }, {
+      "@id" : "_:genid100"
+    }, {
+      "@id" : "_:genid96"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid116"
+    }, {
+      "@id" : "_:genid114"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#val"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.cbtontology.com#ActionPlanMessage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains messages to be displayed to user once action plan is selected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#Message"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.cbtontology.com#BAMessage"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ActionPlanOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Action Plan options categorized according to selected Treatment Goal."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#BAMessage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains messages to be displayed to user on selecting behavioural activation activities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#Message"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#BDIBarrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists 21 Barriers from Beck Depression Inventory (BDI)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#BarrierToTreatmentGoal"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.cbtontology.com#OtherBarrier"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#BarrierToTreatmentGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists barriers to Treatment Goals"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#BehaviouralActivationActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "List of Behavioural Activation activities."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#BehaviouralActivationDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To specify duration of Behavioural Activation activities."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists Decisional Balance Exercises (pros and cons) for the different Action Plans depending on type of Treatment Goal selected"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#Entry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Naming convention: entry(Patient_No)_(Case_No)_(Entry_No)"
+  }, {
+    "@value" : "To monitor self efficacy value of action plan. Shows pro and con of the action plan if patient is unsure or not confident to follow action plan."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#GuidedDiscovery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Questions to ask for the evidence of negative thoughts. Taken from CBT book by Dr. Aaron Beck."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#LivingEnvironment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains information that relates to individual's profile property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#MaritalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Options for marital status. Links to Profile Property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#Message",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains messages to be displayed to user"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#Monitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Naming convention: monitoringAP(Patient_No)_(Patient_Record_No)_(APEntry_No)"
+  }, {
+    "@value" : "To avoid fan trap."
+  }, {
+    "@value" : "To monitor whether user followed the selected action plan or not"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#MonitoringAnswer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Naming convention: ans(Patient_No)_(Patient_Record_No)_(APEntry_No)"
+  }, {
+    "@value" : "To know if the user wants to follow the same Action Plan for the coming week or try another action plan for the same treatment goal"
+  }, {
+    "@value" : "To monitor if user has followed selected action plan or not."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#MonitoringAnswerType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Used to monitor the user's selected action plan by asking how user feels post completing the action plan."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#NegativeThoughtProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists Negative Thought Processes associated with Barriers to Treatment Goals."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ODBECon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains cons for action plans under Other treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#OtherDBE"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.cbtontology.com#ODBEPro"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ODBEPro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains pros for action plans under Other treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#OtherDBE"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OccDBECon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains cons for action plans under Occupational treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#OccupationalDBE"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.cbtontology.com#OccDBEPro"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OccDBEPro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains pros for action plans under Occupational treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#OccupationalDBE"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OccupationActionPlanOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains action plans for Occupational treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OccupationGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists Occupational Treatment Goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#TreatmentGoal"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OccupationalDBE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains pros and cons for action plans under Occupational treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OtherActionPlanOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains action plans for Other treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OtherBarrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists Barriers that fall outside of BDI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#BarrierToTreatmentGoal"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OtherDBE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains pros and cons for action plans under Other treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#OtherGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists Other Treatment Goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#TreatmentGoal"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#Patient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instantiate individuals."
+  }, {
+    "@value" : "Naming convention: patient(Patient_No)"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Minimum 1. 1 per Behavioural Activation activity."
+  }, {
+    "@value" : "Naming convention: pa(Patient_No)_(PA_No)"
+  }, {
+    "@value" : "To record selection of Behavioural Activation activity and monitor expected and achieved mastery levels."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#PatientRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Holds record of treatment goal selected, action plan options and selection of barrier and action plan"
+  }, {
+    "@value" : "Naming convention: patientRecord(Patient_No)_(Case_No)"
+  }, {
+    "@value" : "Patient can have multiple patient records, one for each Treatment Goal."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Multiple per patient. Timestamp used to monitor latest profile."
+  }, {
+    "@value" : "Naming convention: profile(Patient_No)_(Profile_No)"
+  }, {
+    "@value" : "Record patient profile that can change over time, such as marital status, living environment, occupation, distance to mall, time spent watching TV. Has timestamp to monitor latest entry."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#SDBECon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains cons for action plans under Social treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#SocialDBE"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.cbtontology.com#SDBEPro"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#SDBEPro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains pros for action plans under Social treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#SocialDBE"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Added to avoid fan trap."
+  }, {
+    "@value" : "Naming convention: selectedBarrier(Patient_No)_(Patient_Record_No)"
+  }, {
+    "@value" : "Only 1 per Case."
+  }, {
+    "@value" : "Shows selection of barrier to addressing a particular treatment goal."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#SocialActionPlanOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains action plans for Social treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#SocialDBE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains pros and cons for action plans under Social treatment goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#SocialGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists Social Treatment Goals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cbtontology.com#TreatmentGoal"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#Thought",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Naming convention: Thought(Patient_No)_(Case_No)_(Thought_No)"
+  }, {
+    "@value" : "To avoid fan trap. Shows selection of multiple NTPs and guided discovery question for each NTP."
+  }, {
+    "@value" : "To handle multiple negative thought processes (cognitive distortions) for a particular barrier to treatment goal selected by patient"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#TreatmentGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lists Treatment Goals"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ans1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MonitoringAnswer" ],
+  "http://www.cbtontology.com#monAnsHasFollowedAP" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.cbtontology.com#monAnsHasSameActionPlan" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ans2_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MonitoringAnswer" ],
+  "http://www.cbtontology.com#monAnsHasFollowedAP" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.cbtontology.com#monAnsHasSameActionPlan" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ans3_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MonitoringAnswer" ],
+  "http://www.cbtontology.com#monAnsHasFollowedAP" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.cbtontology.com#monAnsHasSameActionPlan" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#apMessage1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#ActionPlanMessage" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "We understand you need some time, please feel free to try again in a couple of days : )"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#apMessage2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#ActionPlanMessage" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Go ahead with your action plan : )"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#apOptionHasCon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect action plan option with the con of not following an action plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#apOptionHasPro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect action plan option with the pro of following an action plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#apOptionHasTreatmentGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect action plan option with its respective treatment goal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#TreatmentGoal"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.cbtontology.com#treatmentGoalHasAPOption"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel sad"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel like crying"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel agitated"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel loss of interest"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel indecisive"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel worthless"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel I am unable to do anything"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I can't fall asleep"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel tired"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I don't have much of an appetite"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I have difficulty concentrating"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel pessimistic"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I am worried about my physical health"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I have no interest in sex"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel like a failure"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel loss of pleasure"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel guilty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel I am being punished"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel unlikeable"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I blame myself for what has happened"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#b9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BDIBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I feel suicidal"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#baActivityHasDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Link the behavioural activation activity with its duration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#BehaviouralActivationActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#BehaviouralActivationDuration"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#baMessage1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BAMessage" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "When BA's Barrier Feeling Rating is <8."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Try this activity instead."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#baMessage2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BAMessage" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "When BA's Barrier Feeling Rating is >8."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I understand you are not feeling your best. I suggest moving out of the system and contacting a therapist so you can get the care you deserve : )"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#baMessage3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BAMessage" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "When activity was followed for a week and BA expected and achieved mastery levels are given."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Thank you for trying this activity! You can try the same activity or pick another one for the next week : )"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entry1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Entry" ],
+  "http://www.cbtontology.com#entryHasFirstSEV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ],
+  "http://www.cbtontology.com#entryHasMonitoring" : [ {
+    "@id" : "http://www.cbtontology.com#monitoringAP1_1_1"
+  } ],
+  "http://www.cbtontology.com#entryHasSecondSEV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ],
+  "http://www.cbtontology.com#entryHasSelectedActionPlan" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan1_1"
+  } ],
+  "http://www.cbtontology.com#entryHasSelectedBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#selectedBarrier1_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entry2_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Entry" ],
+  "http://www.cbtontology.com#entryHasFirstSEV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ],
+  "http://www.cbtontology.com#entryHasMonitoring" : [ {
+    "@id" : "http://www.cbtontology.com#monitoringAP2_1_1"
+  } ],
+  "http://www.cbtontology.com#entryHasSelectedActionPlan" : [ {
+    "@id" : "http://www.cbtontology.com#socialActionPlan2_1"
+  } ],
+  "http://www.cbtontology.com#entryHasSelectedBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#selectedBarrier2_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entry3_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Entry" ],
+  "http://www.cbtontology.com#entryHasFirstSEV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ],
+  "http://www.cbtontology.com#entryHasMonitoring" : [ {
+    "@id" : "http://www.cbtontology.com#monitoringAP3_1_1"
+  } ],
+  "http://www.cbtontology.com#entryHasSecondSEV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ],
+  "http://www.cbtontology.com#entryHasSelectedActionPlan" : [ {
+    "@id" : "http://www.cbtontology.com#otherActionPlan1_1"
+  } ],
+  "http://www.cbtontology.com#entryHasSelectedBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#selectedBarrier3_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryHasFirstSEV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSEV"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryHasMessage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#hasMessage"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryHasMonitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To monitor action plan."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#Monitoring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryHasSEV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect Self Efficacy Value to instance of action plan entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryHasSecondSEV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#entryHasSEV"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryHasSelectedActionPlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To link action plan entry with the action plan selected by the patient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryHasSelectedBarrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To connect barrier to treatment goal for a particular patient record"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryShowCon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Show the con of not following an action plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#entryShowPro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Show the pro of following an action plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#feelingAfterAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MonitoringAnswerType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "How did you feel after following the action plan?"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#gdQuestion1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#GuidedDiscovery" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "If someone I loved had this thought what would I tell them?"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#gdQuestion2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#GuidedDiscovery" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "If someone I loved knew I was thinking this thought, what evidence would they point out to me that would suggest that my thoughts were not 100% true?"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#greaterThan60Min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationDuration" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Activity can take more than 60 minutes."
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#greaterThanSixtyMinutesActivity1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#greaterThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Going out to dinner"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#greaterThanSixtyMinutesActivity2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#greaterThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Watch a movie"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#greaterThanSixtyMinutesActivity3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#greaterThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Go on a picnic with friends"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#hasMessage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To display messages for action plan and behavioural activation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#Message"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#le1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#LivingEnvironment" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Rural"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#le2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#LivingEnvironment" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Urban"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#lessThan60Min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationDuration" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Activity can take less than 60 minutes"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#lessThanSixtyMinutesActivity1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#lessThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Breath Meditation"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#lessThanSixtyMinutesActivity2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#lessThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Have a warm drink"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#lessThanSixtyMinutesActivity3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#lessThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Make a list of things you are grateful for"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#lessThanSixtyMinutesActivity4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#lessThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Do the dishes"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#lessThanSixtyMinutesActivity5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#BehaviouralActivationActivity" ],
+  "http://www.cbtontology.com#baActivityHasDuration" : [ {
+    "@id" : "http://www.cbtontology.com#lessThan60Min"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Organise wardrobe"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monAnsHasFollowedAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To check whether or not patient followed selected action plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#MonitoringAnswer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monAnsHasSameActionPlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To check whether patient wants to follow the same action plan the following week"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#MonitoringAnswer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monAnsShowAnswer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To ask how patient felt after following the action plan depending on whether action plan was followed or not"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#MonitoringAnswer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#MonitoringAnswerType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monitoringAP1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Monitoring" ],
+  "http://www.cbtontology.com#monitoringHasAnswer" : [ {
+    "@id" : "http://www.cbtontology.com#ans1_1_1"
+  } ],
+  "http://www.cbtontology.com#monitoringHasMonitoringTimeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "2020-02-12T13:20:00Z"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monitoringAP2_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Monitoring" ],
+  "http://www.cbtontology.com#monitoringHasAnswer" : [ {
+    "@id" : "http://www.cbtontology.com#ans2_1_1"
+  } ],
+  "http://www.cbtontology.com#monitoringHasMonitoringTimeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "2020-02-25T22:05:15Z"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monitoringAP3_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Monitoring" ],
+  "http://www.cbtontology.com#monitoringHasAnswer" : [ {
+    "@id" : "http://www.cbtontology.com#ans3_1_1"
+  } ],
+  "http://www.cbtontology.com#monitoringHasMonitoringTimeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "2020-02-28T18:20:15Z"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monitoringHasAnswer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To montior responses of action plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Monitoring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#MonitoringAnswer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#monitoringHasMonitoringTimeStamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To record timestamp of action plan monitoring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Monitoring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ms1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MaritalStatus" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Single"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ms2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MaritalStatus" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Married"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ms3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MaritalStatus" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "In a relationship"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ms4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#MaritalStatus" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Divorced"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ntp1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#NegativeThoughtProcess" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "All or nothing; If I'm not a total success, I'm a failure"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ntp2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#NegativeThoughtProcess" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Catastrophizing; I'll be so upset, I won't be able to function at all"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ntp3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#NegativeThoughtProcess" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Disqualifying or discounting the positive; I did it once but that doesn't mean I can do it again"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ntp4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#NegativeThoughtProcess" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mind reading; My roommate doesn't want to be bothered by me"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ntp5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#NegativeThoughtProcess" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Labelling; I'm a loser"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ntp6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#NegativeThoughtProcess" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Magnification; Getting a mediocre evaluation proves how inadequate I am"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#ntp7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#NegativeThoughtProcess" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mental filter; I can't do anything right"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#occActionPlan1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OccupationActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#occDBECon1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#occDBEPro1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#occupationGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Take 5 minute breaks every hour to walk around the office"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#occActionPlan1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OccupationActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#occDBECon2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#occDBEPro2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#occupationGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Practice deep breathing for 30 seconds when taking a break"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#occDBECon1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OccDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con - Take 5 minute breaks every hour to walk around the office"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Leads to heightened risk for depression compared to people who move more often"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#occDBECon2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OccDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con - Practice deep breathing for 30 seconds when taking a break"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Can lead to increase in stress"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#occDBEPro1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OccDBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro-\nWill take 5 minute breaks every hour to walk around the office"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Improves mood and decreases feelings of fatigue"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#occDBEPro2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OccDBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro - Practice deep breathing for 30 seconds when taking a break"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Improves concentration"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#occupationGoal1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OccupationGoal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Improve existing work situation"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#odbeCon1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#ODBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con - \nRun for 15 minutes every everyday\nExercise while watching tv\nWalk indoors at local shopping mall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Lack of exercise tends to increase depressive symptoms"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#odbeCon2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#ODBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con - \nMake my bed every morning as soon as I wake up\nPut away 5 things every time I get up from my chair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A disorganized environment can lead to increase in stress"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#odbePro1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#ODBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro -\nRun for 15 minutes every everyday\nExercise while watching tv\nWalk indoors at local shopping mall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Helps to feel happier by reducing depressive symptoms"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#odbePro2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#ODBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro -\nMake my bed every morning as soon as I wake up\nPut away 5 things every time I get up from my chair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tend to be more productive, less irritable and distracted in a clutter-free environment"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherActionPlan1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#odbeCon1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#odbePro1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Run for 15 minutes everyday"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherActionPlan1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#odbeCon1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#odbePro1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Exercise while watching TV"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherActionPlan1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#odbeCon1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#odbePro1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Walk indoors at local shopping mall"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherActionPlan2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#odbeCon2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#odbePro2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Make my bed every morning as soon as I wake up"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherActionPlan2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#odbeCon2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#odbePro2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Put away 5 things every time I get up from my chair"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherBarrier1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I can't find the time to exercise"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherBarrier2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I feel shy"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherBarrier3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I am unable to do anything"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherBarrier4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherBarrier" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I feel worthless"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherGoal1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherGoal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Improve physical health"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#otherGoal2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#OtherGoal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Organize or clean home"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#pa1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientActivityForBehaviouralActivation" ],
+  "http://www.cbtontology.com#paHasAchievedMastery" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "8"
+  } ],
+  "http://www.cbtontology.com#paHasBAActivity" : [ {
+    "@id" : "http://www.cbtontology.com#greaterThanSixtyMinutesActivity1"
+  } ],
+  "http://www.cbtontology.com#paHasExpectedMastery" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ],
+  "http://www.cbtontology.com#paHasFollowedActivity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#pa2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientActivityForBehaviouralActivation" ],
+  "http://www.cbtontology.com#paHasBAActivity" : [ {
+    "@id" : "http://www.cbtontology.com#lessThanSixtyMinutesActivity5"
+  } ],
+  "http://www.cbtontology.com#paHasBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#otherBarrier3"
+  } ],
+  "http://www.cbtontology.com#paHasExpectedMastery" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "7"
+  } ],
+  "http://www.cbtontology.com#paHasFeelingRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ],
+  "http://www.cbtontology.com#paHasFollowedActivity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#pa3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientActivityForBehaviouralActivation" ],
+  "http://www.cbtontology.com#paHasBAActivity" : [ {
+    "@id" : "http://www.cbtontology.com#greaterThanSixtyMinutesActivity3"
+  } ],
+  "http://www.cbtontology.com#paHasBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#otherBarrier4"
+  } ],
+  "http://www.cbtontology.com#paHasExpectedMastery" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "7"
+  } ],
+  "http://www.cbtontology.com#paHasFeelingRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "9"
+  } ],
+  "http://www.cbtontology.com#paHasFollowedActivity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#pa4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientActivityForBehaviouralActivation" ],
+  "http://www.cbtontology.com#paHasBAActivity" : [ {
+    "@id" : "http://www.cbtontology.com#greaterThanSixtyMinutesActivity3"
+  } ],
+  "http://www.cbtontology.com#paHasBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#otherBarrier2"
+  } ],
+  "http://www.cbtontology.com#paHasExpectedMastery" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ],
+  "http://www.cbtontology.com#paHasFeelingRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "6"
+  } ],
+  "http://www.cbtontology.com#paHasFollowedActivity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasAchievedMastery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To record achieved mastery levels post following behavioural activation activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#paHasMastery"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasAlternateActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#paHasBAActivity"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasBAActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connects instance of Patient Activity with selection of Behavioural Activation Activities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#BehaviouralActivationActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasBarrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connects instance of Patient Activity with selection of barriers to treatment goal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#BarrierToTreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasExpectedMastery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To record expected mastery levels before starting behavioural activation activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#paHasMastery"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasFeelingRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To record the feeling rating to barrier for behavioural activation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasFollowedActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To check whether patient followed BA activity or not"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasMastery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To record mastery levels for behavioural activation activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#paHasMessage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#hasMessage"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patient1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Patient" ],
+  "http://www.cbtontology.com#patientHasDoB" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1996-10-26T21:32:45"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientActivity" : [ {
+    "@id" : "http://www.cbtontology.com#pa1_1"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientRecord" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecord1_1"
+  } ],
+  "http://www.cbtontology.com#patientHasProfile" : [ {
+    "@id" : "http://www.cbtontology.com#profile1_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patient2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Patient" ],
+  "http://www.cbtontology.com#patientHasDoB" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1988-04-17T22:45:57"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientActivity" : [ {
+    "@id" : "http://www.cbtontology.com#pa2_1"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientRecord" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecord2_1"
+  } ],
+  "http://www.cbtontology.com#patientHasProfile" : [ {
+    "@id" : "http://www.cbtontology.com#profile2_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patient3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Patient" ],
+  "http://www.cbtontology.com#patientHasDoB" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1974-06-19T03:35:14Z"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientActivity" : [ {
+    "@id" : "http://www.cbtontology.com#pa3_1"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientRecord" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecord3_1"
+  } ],
+  "http://www.cbtontology.com#patientHasProfile" : [ {
+    "@id" : "http://www.cbtontology.com#profile3_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patient4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Patient" ],
+  "http://www.cbtontology.com#patientHasDoB" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1980-07-19T19:06:15Z"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientActivity" : [ {
+    "@id" : "http://www.cbtontology.com#pa4_1"
+  } ],
+  "http://www.cbtontology.com#patientHasPatientRecord" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecord4_1"
+  } ],
+  "http://www.cbtontology.com#patientHasProfile" : [ {
+    "@id" : "http://www.cbtontology.com#profile4_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientHasDoB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To record patient's date of birth. Not included in Patient Info as it stays constant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientHasPatientActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connects to instance of Patient Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientHasPatientRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connects to instance of Patient Record"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#PatientRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientHasProfile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connects to instance of Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecord1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientRecord" ],
+  "http://www.cbtontology.com#patientRecordHasEntry" : [ {
+    "@id" : "http://www.cbtontology.com#entry1_1_1"
+  } ],
+  "http://www.cbtontology.com#patientRecordHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecord2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientRecord" ],
+  "http://www.cbtontology.com#patientRecordHasEntry" : [ {
+    "@id" : "http://www.cbtontology.com#entry2_1_1"
+  } ],
+  "http://www.cbtontology.com#patientRecordHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal2"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecord3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientRecord" ],
+  "http://www.cbtontology.com#patientRecordHasEntry" : [ {
+    "@id" : "http://www.cbtontology.com#entry3_1_1"
+  } ],
+  "http://www.cbtontology.com#patientRecordHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#otherGoal1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecord4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#PatientRecord" ],
+  "http://www.cbtontology.com#patientRecordHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal3"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecordHasAPOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To show the action plan options"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecordHasEntry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connects to instance of action plan entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecordHasNewAPOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecordHasSameAPOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#patientRecordHasAPOption"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To connect patient record to treatment goal selected by patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#PatientRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#TreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profile1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Profile" ],
+  "http://www.cbtontology.com#profileHasLivingEnvironment" : [ {
+    "@id" : "http://www.cbtontology.com#le2"
+  } ],
+  "http://www.cbtontology.com#profileHasMallCloseBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.cbtontology.com#profileHasMaritalStatus" : [ {
+    "@id" : "http://www.cbtontology.com#ms1"
+  } ],
+  "http://www.cbtontology.com#profileHasOccupation" : [ {
+    "@value" : "Student"
+  } ],
+  "http://www.cbtontology.com#profileHasPropertyTimeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "2020-02-20T03:45:12Z"
+  } ],
+  "http://www.cbtontology.com#profileTimeSpentWatchingTV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "1.5"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profile2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Profile" ],
+  "http://www.cbtontology.com#profileHasLivingEnvironment" : [ {
+    "@id" : "http://www.cbtontology.com#le2"
+  } ],
+  "http://www.cbtontology.com#profileHasMallCloseBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.cbtontology.com#profileHasMaritalStatus" : [ {
+    "@id" : "http://www.cbtontology.com#ms2"
+  } ],
+  "http://www.cbtontology.com#profileHasOccupation" : [ {
+    "@value" : "Marketing Manager"
+  } ],
+  "http://www.cbtontology.com#profileHasPropertyTimeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "2020-02-25T21:32:52Z"
+  } ],
+  "http://www.cbtontology.com#profileTimeSpentWatchingTV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.67"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profile3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Profile" ],
+  "http://www.cbtontology.com#profileHasLivingEnvironment" : [ {
+    "@id" : "http://www.cbtontology.com#le2"
+  } ],
+  "http://www.cbtontology.com#profileHasMallCloseBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.cbtontology.com#profileHasMaritalStatus" : [ {
+    "@id" : "http://www.cbtontology.com#ms2"
+  } ],
+  "http://www.cbtontology.com#profileHasOccupation" : [ {
+    "@value" : "Homemaker"
+  } ],
+  "http://www.cbtontology.com#profileHasPropertyTimeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "2020-02-28T14:05:16Z"
+  } ],
+  "http://www.cbtontology.com#profileTimeSpentWatchingTV" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.16"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profile4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Profile" ]
+}, {
+  "@id" : "http://www.cbtontology.com#profileHasLivingEnvironment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Links patient profile to instance of living environment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#LivingEnvironment"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profileHasMallCloseBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To note if there is a shopping mall close to patient in Patient Info"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#profileHasProfileProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profileHasMaritalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Links patient profile to instance of marital status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#MaritalStatus"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profileHasOccupation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To note occupation in Patient Info"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#profileHasProfileProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profileHasProfileProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Profile property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profileHasPropertyTimeStamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#profileHasProfileProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#profileTimeSpentWatchingTV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "To record time spent by patient watching TV in a day."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cbtontology.com#profileHasProfileProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sbHasBarrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect selection of barrier to treatment goal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#BarrierToTreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sbHasThought",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect barrier to an instance of Thought class to record multiple negative thought processes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#Thought"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbeCon1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con - \nThink twice before speaking\nUse words such as “please”, “thank you”, “sorry” and “excuse me” often\nActively listen to my family members"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Can be considered rude not to and impact relationships negatively"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbeCon2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con - Ask others for help"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Negative impact on efficacy"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbeCon3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con -\nSpend time with my family by having atleast one meal together every day\nSpend time with my family by going on a walk post dinner every alternate day\nEstablish a time each day to spend quality time together"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Can lead to weak relations between family members"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbeCon4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con -\nShow physical affection to my partner by hugging them every day"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "More prone to depression"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbeCon5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con- \nUse “I” sentences instead of “You” sentences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Can sound like accusations against the family member"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbeCon6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBECon" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Con - Will establish a time each day to spend quality time together"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Can lead to weak relations with spouse/partner"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbePro1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro: Think twice before speaking\nUse words such as “please”, “thank you”, “sorry” and “excuse me” often\nActively listen to my family members"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Is seen as an effort to be polite"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbePro2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro - Ask others for help"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gives opportunities for success through assistance by others"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbePro3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro - Spend time with my family by having atleast one meal together every day\nSpend time with my family by going on a walk post dinner every alternate day\nEstablish a time each day to spend quality time together"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Helps to foster healthy relationships"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbePro4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro - Show physical affection to my partner by hugging them every day"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Reduces stress"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#sdbePro5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SDBEPro" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pro - Use “I” sentences instead of “You” sentences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Helps to be more clear about ones thoughts as well as feelings"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#selectedBarrier1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal" ],
+  "http://www.cbtontology.com#sbHasBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#otherBarrier2"
+  } ],
+  "http://www.cbtontology.com#sbHasThought" : [ {
+    "@id" : "http://www.cbtontology.com#thought1_1_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#selectedBarrier2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal" ],
+  "http://www.cbtontology.com#sbHasBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#b5"
+  } ],
+  "http://www.cbtontology.com#sbHasThought" : [ {
+    "@id" : "http://www.cbtontology.com#thought2_1_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#selectedBarrier3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal" ],
+  "http://www.cbtontology.com#sbHasBarrier" : [ {
+    "@id" : "http://www.cbtontology.com#otherBarrier1"
+  } ],
+  "http://www.cbtontology.com#sbHasThought" : [ {
+    "@id" : "http://www.cbtontology.com#thought3_1_1"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro2"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ask others for help"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Use words such as “please”, “thank you”, “sorry” and “excuse me\""
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Think twice before speaking"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon4"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro4"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Will show physical affection to my partner by hugging them every day"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon6"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro3"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Will establish a time each day to spend quality time together"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro1"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Actively listen to my family members"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan3_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon5"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro5"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Use “I” sentences instead of “You” sentences"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan3_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon3"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro3"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Spend time with family by having atleast one meal together every day"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialActionPlan3_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialActionPlanOption" ],
+  "http://www.cbtontology.com#apOptionHasCon" : [ {
+    "@id" : "http://www.cbtontology.com#sdbeCon3"
+  } ],
+  "http://www.cbtontology.com#apOptionHasPro" : [ {
+    "@id" : "http://www.cbtontology.com#sdbePro3"
+  } ],
+  "http://www.cbtontology.com#apOptionHasTreatmentGoal" : [ {
+    "@id" : "http://www.cbtontology.com#socialGoal3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Spend time with family by going on a walk post dinner every alternate day"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialGoal1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialGoal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Improve non family social relations"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialGoal2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialGoal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Improve relationship with spouse/significant other"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#socialGoal3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#SocialGoal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Improve family (non-spouse/significant other) relationships"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#thought1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Thought" ],
+  "http://www.cbtontology.com#thoughtHasNTP" : [ {
+    "@id" : "http://www.cbtontology.com#ntp4"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#thought2_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Thought" ],
+  "http://www.cbtontology.com#thoughtHasNTP" : [ {
+    "@id" : "http://www.cbtontology.com#ntp7"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#thought3_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cbtontology.com#Thought" ],
+  "http://www.cbtontology.com#thoughtHasNTP" : [ {
+    "@id" : "http://www.cbtontology.com#ntp3"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#thoughtHasGD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect to guided discovery questions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Thought"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#GuidedDiscovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#thoughtHasNTP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Connect to multiple negative thought processes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#Thought"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#NegativeThoughtProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cbtontology.com#treatmentGoalHasAPOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Inverse of apOptionHasTreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cbtontology.com#TreatmentGoal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cbtontology.com#ActionPlanOption"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#differentFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#equal",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#a",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#act1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#act2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#ans",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#ap",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#b",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#con",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#dur",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#entry",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#m",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#mon",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#ntp",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#p",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#pa",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#plan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#plan1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#plan2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#pr",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#pro",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#profile",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#rate",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#sb",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#sev",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#t",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#tg",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#tv",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#val",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
