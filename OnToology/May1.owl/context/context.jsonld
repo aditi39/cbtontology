@@ -1,0 +1,328 @@
+{
+  "@context" : {
+    "patientRecordHasAPOption" : {
+      "@id" : "http://www.cbtontology.com#patientRecordHasAPOption",
+      "@type" : "@id"
+    },
+    "profileHasOccupation" : {
+      "@id" : "http://www.cbtontology.com#profileHasOccupation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "paHasFollowedActivity" : {
+      "@id" : "http://www.cbtontology.com#paHasFollowedActivity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "OtherGoal" : {
+      "@id" : "http://www.cbtontology.com#OtherGoal"
+    },
+    "OtherDBE" : {
+      "@id" : "http://www.cbtontology.com#OtherDBE"
+    },
+    "DecisionalBalanceExercise" : {
+      "@id" : "http://www.cbtontology.com#DecisionalBalanceExercise"
+    },
+    "apOptionHasPro" : {
+      "@id" : "http://www.cbtontology.com#apOptionHasPro",
+      "@type" : "@id"
+    },
+    "paHasFeelingRating" : {
+      "@id" : "http://www.cbtontology.com#paHasFeelingRating"
+    },
+    "thoughtHasNTP" : {
+      "@id" : "http://www.cbtontology.com#thoughtHasNTP",
+      "@type" : "@id"
+    },
+    "patientRecordHasNewAPOption" : {
+      "@id" : "http://www.cbtontology.com#patientRecordHasNewAPOption",
+      "@type" : "@id"
+    },
+    "ActionPlanOption" : {
+      "@id" : "http://www.cbtontology.com#ActionPlanOption"
+    },
+    "BehaviouralActivationActivity" : {
+      "@id" : "http://www.cbtontology.com#BehaviouralActivationActivity"
+    },
+    "GuidedDiscovery" : {
+      "@id" : "http://www.cbtontology.com#GuidedDiscovery"
+    },
+    "entryHasSelectedBarrier" : {
+      "@id" : "http://www.cbtontology.com#entryHasSelectedBarrier",
+      "@type" : "@id"
+    },
+    "entryHasSEV" : {
+      "@id" : "http://www.cbtontology.com#entryHasSEV"
+    },
+    "apOptionHasTreatmentGoal" : {
+      "@id" : "http://www.cbtontology.com#apOptionHasTreatmentGoal",
+      "@type" : "@id"
+    },
+    "LivingEnvironment" : {
+      "@id" : "http://www.cbtontology.com#LivingEnvironment"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "entryHasSelectedActionPlan" : {
+      "@id" : "http://www.cbtontology.com#entryHasSelectedActionPlan",
+      "@type" : "@id"
+    },
+    "entryHasSecondSEV" : {
+      "@id" : "http://www.cbtontology.com#entryHasSecondSEV"
+    },
+    "OccDBECon" : {
+      "@id" : "http://www.cbtontology.com#OccDBECon"
+    },
+    "patientHasPatientActivity" : {
+      "@id" : "http://www.cbtontology.com#patientHasPatientActivity",
+      "@type" : "@id"
+    },
+    "TreatmentGoal" : {
+      "@id" : "http://www.cbtontology.com#TreatmentGoal"
+    },
+    "monitoringHasAnswer" : {
+      "@id" : "http://www.cbtontology.com#monitoringHasAnswer",
+      "@type" : "@id"
+    },
+    "BehaviouralActivationDuration" : {
+      "@id" : "http://www.cbtontology.com#BehaviouralActivationDuration"
+    },
+    "Entry" : {
+      "@id" : "http://www.cbtontology.com#Entry"
+    },
+    "paHasExpectedMastery" : {
+      "@id" : "http://www.cbtontology.com#paHasExpectedMastery"
+    },
+    "sbHasThought" : {
+      "@id" : "http://www.cbtontology.com#sbHasThought",
+      "@type" : "@id"
+    },
+    "OccupationActionPlanOption" : {
+      "@id" : "http://www.cbtontology.com#OccupationActionPlanOption"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "monitoringHasMonitoringTimeStamp" : {
+      "@id" : "http://www.cbtontology.com#monitoringHasMonitoringTimeStamp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+    },
+    "monAnsShowAnswer" : {
+      "@id" : "http://www.cbtontology.com#monAnsShowAnswer",
+      "@type" : "@id"
+    },
+    "SocialDBE" : {
+      "@id" : "http://www.cbtontology.com#SocialDBE"
+    },
+    "paHasAlternateActivity" : {
+      "@id" : "http://www.cbtontology.com#paHasAlternateActivity",
+      "@type" : "@id"
+    },
+    "Patient" : {
+      "@id" : "http://www.cbtontology.com#Patient"
+    },
+    "patientHasPatientRecord" : {
+      "@id" : "http://www.cbtontology.com#patientHasPatientRecord",
+      "@type" : "@id"
+    },
+    "patientRecordHasTreatmentGoal" : {
+      "@id" : "http://www.cbtontology.com#patientRecordHasTreatmentGoal",
+      "@type" : "@id"
+    },
+    "entryShowCon" : {
+      "@id" : "http://www.cbtontology.com#entryShowCon",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "paHasMastery" : {
+      "@id" : "http://www.cbtontology.com#paHasMastery"
+    },
+    "ActionPlanMessage" : {
+      "@id" : "http://www.cbtontology.com#ActionPlanMessage"
+    },
+    "profileHasMallCloseBy" : {
+      "@id" : "http://www.cbtontology.com#profileHasMallCloseBy",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "OccupationalDBE" : {
+      "@id" : "http://www.cbtontology.com#OccupationalDBE"
+    },
+    "entryHasMonitoring" : {
+      "@id" : "http://www.cbtontology.com#entryHasMonitoring",
+      "@type" : "@id"
+    },
+    "treatmentGoalHasAPOption" : {
+      "@id" : "http://www.cbtontology.com#treatmentGoalHasAPOption",
+      "@type" : "@id"
+    },
+    "BAMessage" : {
+      "@id" : "http://www.cbtontology.com#BAMessage"
+    },
+    "Profile" : {
+      "@id" : "http://www.cbtontology.com#Profile"
+    },
+    "monAnsHasSameActionPlan" : {
+      "@id" : "http://www.cbtontology.com#monAnsHasSameActionPlan",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "profileHasProfileProperty" : {
+      "@id" : "http://www.cbtontology.com#profileHasProfileProperty"
+    },
+    "Message" : {
+      "@id" : "http://www.cbtontology.com#Message"
+    },
+    "hasMessage" : {
+      "@id" : "http://www.cbtontology.com#hasMessage",
+      "@type" : "@id"
+    },
+    "baActivityHasDuration" : {
+      "@id" : "http://www.cbtontology.com#baActivityHasDuration",
+      "@type" : "@id"
+    },
+    "sbHasBarrier" : {
+      "@id" : "http://www.cbtontology.com#sbHasBarrier",
+      "@type" : "@id"
+    },
+    "apOptionHasCon" : {
+      "@id" : "http://www.cbtontology.com#apOptionHasCon",
+      "@type" : "@id"
+    },
+    "Monitoring" : {
+      "@id" : "http://www.cbtontology.com#Monitoring"
+    },
+    "OtherBarrier" : {
+      "@id" : "http://www.cbtontology.com#OtherBarrier"
+    },
+    "BarrierToTreatmentGoal" : {
+      "@id" : "http://www.cbtontology.com#BarrierToTreatmentGoal"
+    },
+    "paHasBarrier" : {
+      "@id" : "http://www.cbtontology.com#paHasBarrier",
+      "@type" : "@id"
+    },
+    "PatientRecord" : {
+      "@id" : "http://www.cbtontology.com#PatientRecord"
+    },
+    "PatientActivityForBehaviouralActivation" : {
+      "@id" : "http://www.cbtontology.com#PatientActivityForBehaviouralActivation"
+    },
+    "profileHasLivingEnvironment" : {
+      "@id" : "http://www.cbtontology.com#profileHasLivingEnvironment",
+      "@type" : "@id"
+    },
+    "Thought" : {
+      "@id" : "http://www.cbtontology.com#Thought"
+    },
+    "MaritalStatus" : {
+      "@id" : "http://www.cbtontology.com#MaritalStatus"
+    },
+    "monAnsHasFollowedAP" : {
+      "@id" : "http://www.cbtontology.com#monAnsHasFollowedAP",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "paHasAchievedMastery" : {
+      "@id" : "http://www.cbtontology.com#paHasAchievedMastery"
+    },
+    "OccupationGoal" : {
+      "@id" : "http://www.cbtontology.com#OccupationGoal"
+    },
+    "entryHasMessage" : {
+      "@id" : "http://www.cbtontology.com#entryHasMessage",
+      "@type" : "@id"
+    },
+    "entryShowPro" : {
+      "@id" : "http://www.cbtontology.com#entryShowPro",
+      "@type" : "@id"
+    },
+    "NegativeThoughtProcess" : {
+      "@id" : "http://www.cbtontology.com#NegativeThoughtProcess"
+    },
+    "thoughtHasGD" : {
+      "@id" : "http://www.cbtontology.com#thoughtHasGD",
+      "@type" : "@id"
+    },
+    "OtherActionPlanOption" : {
+      "@id" : "http://www.cbtontology.com#OtherActionPlanOption"
+    },
+    "entryHasFirstSEV" : {
+      "@id" : "http://www.cbtontology.com#entryHasFirstSEV"
+    },
+    "SDBEPro" : {
+      "@id" : "http://www.cbtontology.com#SDBEPro"
+    },
+    "paHasBAActivity" : {
+      "@id" : "http://www.cbtontology.com#paHasBAActivity",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "patientHasProfile" : {
+      "@id" : "http://www.cbtontology.com#patientHasProfile",
+      "@type" : "@id"
+    },
+    "SDBECon" : {
+      "@id" : "http://www.cbtontology.com#SDBECon"
+    },
+    "patientRecordHasEntry" : {
+      "@id" : "http://www.cbtontology.com#patientRecordHasEntry",
+      "@type" : "@id"
+    },
+    "SocialActionPlanOption" : {
+      "@id" : "http://www.cbtontology.com#SocialActionPlanOption"
+    },
+    "profileHasPropertyTimeStamp" : {
+      "@id" : "http://www.cbtontology.com#profileHasPropertyTimeStamp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+    },
+    "OccDBEPro" : {
+      "@id" : "http://www.cbtontology.com#OccDBEPro"
+    },
+    "MonitoringAnswer" : {
+      "@id" : "http://www.cbtontology.com#MonitoringAnswer"
+    },
+    "SelectedBarrierToTreatmentGoal" : {
+      "@id" : "http://www.cbtontology.com#SelectedBarrierToTreatmentGoal"
+    },
+    "patientHasDoB" : {
+      "@id" : "http://www.cbtontology.com#patientHasDoB",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "profileTimeSpentWatchingTV" : {
+      "@id" : "http://www.cbtontology.com#profileTimeSpentWatchingTV",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "profileHasMaritalStatus" : {
+      "@id" : "http://www.cbtontology.com#profileHasMaritalStatus",
+      "@type" : "@id"
+    },
+    "ODBECon" : {
+      "@id" : "http://www.cbtontology.com#ODBECon"
+    },
+    "ODBEPro" : {
+      "@id" : "http://www.cbtontology.com#ODBEPro"
+    },
+    "BDIBarrier" : {
+      "@id" : "http://www.cbtontology.com#BDIBarrier"
+    },
+    "paHasMessage" : {
+      "@id" : "http://www.cbtontology.com#paHasMessage",
+      "@type" : "@id"
+    },
+    "MonitoringAnswerType" : {
+      "@id" : "http://www.cbtontology.com#MonitoringAnswerType"
+    },
+    "patientRecordHasSameAPOption" : {
+      "@id" : "http://www.cbtontology.com#patientRecordHasSameAPOption",
+      "@type" : "@id"
+    },
+    "SocialGoal" : {
+      "@id" : "http://www.cbtontology.com#SocialGoal"
+    }
+  }
+}
